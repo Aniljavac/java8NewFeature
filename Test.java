@@ -3,6 +3,7 @@
  * By convention, the Left constructor is used to hold an error value and the Right constructor is used to hold a correct value
  * @param <L> The left alternative type
  * @param <R> The right alternative type
+ * add in slabe --
  */
 public abstract class Either<L, R>
 {
