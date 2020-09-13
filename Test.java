@@ -2,7 +2,9 @@
  * A container for a disjunction of two possible types
  * By convention, the Left constructor is used to hold an error value and the Right constructor is used to hold a correct value
  * @param <L> The left alternative type
+ *  added for conflict --
  * @param <R> The right alternative type
+ *
  */
 public abstract class Either<L, R>
 {
